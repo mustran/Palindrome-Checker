@@ -1,5 +1,5 @@
 function palindrome(str){
-    //replace every non character with a space and make the string lowercase
+    //replace every non character with a empty string and make the string lowercase
     str = str.replace(/[^a-z0-9+]+/gi, '').toLowerCase();
     if(str === reverseString(str))
     return true;
