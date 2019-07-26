@@ -7,10 +7,7 @@ function palindrome(str){
 }
 
 function reverseString(string){
-    let splitWord = string.split('');
-    splitWord.reverse();
-    string = splitWord.join('');
-    return string
+    return string.split('').reverse().join('');
 }
 
 
